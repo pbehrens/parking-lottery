@@ -1,0 +1,98 @@
+@media screen, projection {
+/* exploit a parsing bug so @media rules are visible to MacIE5 */
+.BeNiceToMacIE5 {
+  font-family: "\"}\"";
+  font-family: inherit;
+}
+body {
+  background-color: #F2F2F0;
+  color: #000;
+}
+.wrapper {
+  margin: 1% 5%;
+  padding: 0;
+  border: thin solid #7d5500;
+}
+h1 {
+    
+  color: #9C1212;
+  margin: 0;
+  padding: .2em 2%;
+}
+h2 {
+  margin: .2em 0;
+}
+
+ul{
+	
+
+}
+ul li
+{
+	text-decoration:none;
+	padding-top:5px;
+	
+}
+ul a
+{
+	text-decoration:none;
+	color: #9C1212;
+	font-weight:bold;
+}
+
+ul a:hover
+{
+	text-decoration:none;
+	color: #000000;
+	font-weight:bold;
+}
+.main {
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-top: thin solid #7d5500;
+  border-bottom: thin solid #7d5500;
+  color: #000;
+  background: #ffffff ;
+
+}
+.content {
+  width: 67%;
+  float: right;
+  margin: 0;
+  padding: 1% 2%;
+}
+.sidebar {
+  margin-right: 73%;
+  padding: 1%;
+  font-size: 90%;
+  
+}
+.clear {
+  clear: both;
+  height: 1px;
+  overflow: hidden;   /* prevent IE expanding the container */
+  margin: 0;          /* keep flush with surrounding blocks */
+}
+.footer {
+  background-color: #F2F2F0;  /* same bg color as h1 */
+  color: #7d5500;
+  margin: 0;          /* flush with .main */
+  padding: 1% 2%;
+}
+.nav {
+  border-top: thin solid #7d5500;
+  font-size: 90%;
+}
+.nav ul {
+  margin: .3em;
+  padding: 0;
+}
+.nav li {
+  list-style: none;
+/*  display: inline; */
+  float: left;
+  padding: .5em 1em;
+}
+} /* end media rules */
